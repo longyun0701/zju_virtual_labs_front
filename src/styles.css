@@ -1,0 +1,142 @@
+table {
+  width: 1000px;
+  border-collapse:collapse;
+  margin: 0 auto;
+}
+
+td {
+  vertical-align: middle;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  color: white
+}
+h1b {
+  font-size: 22px;
+  color: darkblue
+}
+h2 {
+
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  color: white;
+  padding: 8px;
+}
+
+tab_l1 {
+  font-size: 18px;
+  color: white;
+  padding: 8px;
+  font-weight:bold;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+add {
+  font-size: 12px;
+  color: white;
+
+}
+
+lang {
+  font-size: 12px;
+  color: blue
+}
+
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+
+.highlight_tab:hover {
+  background-color: white;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.highlight_shift:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.highlight_shift {
+  font-size: 15px;
+}
+
+
+.fac_intro_text{
+  height: 100%; 
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underscore-row {
+  border-bottom: 2px solid black;
+}
+
+.underscore-row2 {
+  border-bottom: 1px solid black;
+}
+
+.right-border {
+  border-right: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.equip_intro {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.image-container {
+  max-width: 600px; /* Set the maximum width of the container */
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-container img {
+  width: 600px; /* Set a fixed width of 400 pixels */
+  height: auto; /* Maintain the original aspect ratio of each image */
+}
+
+.para_cn {
+  text-indent: 2em; /* Set the indentation to 2 spaces (adjust as needed) */
+}
+
+.head-bg {
+  background-image: url("head_banner_2.png"); /* 这里的 "background.jpg" 是背景图片的路径 */
+  background-repeat: no-repeat; /* 不重复平铺背景图片 */
+  background-size: 100%; /* 自动调整背景图片大小以完全覆盖表格区域 */
+}
